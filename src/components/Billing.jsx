@@ -21,7 +21,7 @@ const Billing = () => (
 
 		<div className={layout.sectionInfo}>
 			<h2 className={styles.heading2}>
-				Easily control your <br className='sm:block hidden' /> billing &
+				Easily control your <br className='hidden sm:block' /> billing &
 				invoicing
 			</h2>
 			<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -29,12 +29,13 @@ const Billing = () => (
 				neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
 			</p>
 
-			<div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
+			<div className='flex flex-row flex-wrap mt-6 sm:mt-10'>
 				<img
 					src={apple}
 					alt='google_play'
 					className='w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer'
 				/>
+				{/* sup */}
 				<img
 					src={google}
 					alt='google_play'
